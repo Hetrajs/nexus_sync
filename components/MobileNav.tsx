@@ -32,15 +32,14 @@ const MobileNav = () => {
           side="right"
           className="border-none bg-dark-1 text-white"
         >
-          <Link href="/" className="flex items-center gap-1">
-            <Image
-              src="/icons/logo.svg"
-              width={32}
-              height={32}
-              alt="Logo"
-              className="max-sm:size-10"
-            />
-            <p className="text-[26px] font-extrabold text-white">NexusSync</p>
+          <Link href="/" className="flex items-baseline gap-1">
+          <Image
+          src="/images/logo.png"
+          width={64}
+          height={64}
+          alt="Logo"
+        />
+            <p className="text-[22px] font-extrabold text-white">Sync</p>
           </Link>
 
           <div className="flex h-[calc(100vh - 72px)] flex-col justify-between overflow-y-auto">
